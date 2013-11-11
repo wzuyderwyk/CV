@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" version="1.1">
+<g>
+<ellipse stroke-miterlimit="10" cx="150" cy="100" rx="100" ry="60" style="fill:none;stroke:black;stroke-miterlimit:10"/>
+<ellipse id="_onderkant" stroke-miterlimit="10" cx="150" cy="300" rx="100" ry="60" style="fill:none;stroke:black;stroke-miterlimit:10"/>
+
+<line id="_lzijkant" x1="50" y1="100" x2="50" y2="300" style="stroke:black;stroke-miterlimit:10"/>
+
+<line id="_rzijkant" x1="250" y1="100" x2="250" y2="300" style="stroke:black;stroke-miterlimit:10"/>
+
+<text x="135" y="300">80 %</text>
+
+<ellipse stroke-miterlimit="10" cx="450" cy="200" rx="100" ry="60" style="fill:none;stroke:black;stroke-miterlimit:10"/>
+<ellipse stroke-miterlimit="10" cx="450" cy="300" rx="100" ry="60" style="fill:none;stroke:black;stroke-miterlimit:10"/>
+
+<line x1="350" y1="200" x2="350" y2="300" style="stroke:black;stroke-miterlimit:10"/>
+
+<line x1="550" y1="200" x2="550" y2="300" style="stroke:black;stroke-miterlimit:10"/>
+
+<text x="435" y="300">40 %</text>
+
+<ellipse stroke-miterlimit="10" cx="750" cy="150" rx="100" ry="50" style="fill:none;stroke:black;stroke-miterlimit:10"/>
+<ellipse stroke-miterlimit="10" cx="750" cy="300" rx="100" ry="50" style="fill:none;stroke:black;stroke-miterlimit:10"/>
+
+<line x1="650" y1="150" x2="650" y2="300" style="stroke:black;stroke-miterlimit:10"/>
+
+<line x1="850" y1="150" x2="850" y2="300" style="stroke:black;stroke-miterlimit:10"/>
+
+<text x="735" y="300">60 %</text>
+</g>
+</svg>

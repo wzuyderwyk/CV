@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE course SYSTEM "http://webdev.ru.nl/DTDs/coursexml.dtd">
+<course>
+    <timetable>
+        <monday>
+            <event type="workshop">
+                <description>Webdev-toets.</description>
+                <location>E. 1.20</location>
+            </event>
+            <event type="lecture">
+                <description>Een hoorcollege</description>
+                <location>CC02</location>
+            </event>
+            <event type="workshop">
+                <description>Een werkcollege</description>
+                <location>E. 2.10</location>
+            </event>
+            <event type="lecture">
+                <description>Introductie Java</description>
+                <location>CC03</location>
+            </event>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+        </monday>
+        <tuesday>
+            <event type="lecture">
+                <description>Het eerste uur en dan al een hoorcollege!</description>
+                <location>N. 2.045</location>
+            </event>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+        </tuesday>
+        <wednesday>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+        </wednesday>
+        <thursday>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+        </thursday>
+        <friday>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+            <event type="free"/>
+        </friday>
+    </timetable>
+    <reqs>
+        <req>
+            <description>Voor deze cursus moet je alles weten over Web Development</description>
+            <details>Dus: sluit de toets af met een voldoende</details>
+        </req>
+        <req>
+            <description>Voor deze cursus moet je alles weten over Web Design</description>
+            <details>Dus maak een adequate persona</details>
+        </req>
+    </reqs>
+</course>

@@ -1,0 +1,51 @@
+/* Dit is de stylesheet van het prototype voor de Eindopdracht - WebDev Website - */0
+
+/* 
+border: solid black 1pc;
+background-color: red;
+element.class#id {eigenschap: waarde;}
+
+
+*/
+
+div {border: solid black 2px;}
+body {margin: 0; color: #fcf; font: 10pt 'Georgia', 'Times', serif }
+
+a { color: #f4d; text-decoration: none }
+a:visited { color: #f6d; text-decoration: none }
+a:hover { color: f4d; text-decoration: underline }
+
+#lbalk a { color: #f78 }
+#lbalk a:visited { color: #f48 }
+#lbalk a:hover { color: #f78 }
+
+#opmaak {width: 800px; height: 600px;}
+#mast {position: absolute; top: 0; left: 200px; background-color: #8b0303; height: 200px; width: 600px;}
+#logo {position: absolute; top: 0; left: 0; background-color:#c10404; height: 99px;	width: 200px;}
+#lbalk {position: absolute; top: 100px; left: 0; background-color:#a64732;	height: 400px;	width: 200px;}
+#inhoud {position: absolute; top: 100px; left: 200px; background-color:#8c3730; height: 400px;	width: 600px; overflow: auto }
+#voetnoot {position: absolute; top: 500px; left: 0px; background-color:#8b0303; height: 50px; width: 800px;}
+
+#lbalk > * { padding: 4px; padding-left: 10px }
+#inhoud > * { padding: 4px; padding-left: 10px }
+#lbalk h1 { font-size: 10pt; font-weight: bold; margin-bottom: 2px }
+
+div.sub { background-color: #fcf; color: black; margin: 10px 20px 10px 20px; padding: 10px 5px 10px 5px; border: solid #8b0303 1px }
+
+#logo { text-align: center }
+#logo { border-width: 0 0 1px 0; border-color: #8b0303; border-style: solid }
+#logo > * > img { border-top: solid #c10404 20px }
+
+#mast > div { width: 300px }
+#mast > div > * { margin-top: 50px; height: 262px; color: #fcf; font: 10pt 'Georgia', 'Times', serif; text-align: center }
+
+p.sub	{ color: #623; background-color: #b56; padding: 10px 30px 10px 30px;
+	margin: 5px auto 5px auto; text-align: center; width: 300px; border: solid #8b0303 1px }
+	
+#vakken { width: 100px; margin: 0 auto 0 auto; padding: 0 }
+#vakken > ul { list-style: circle inside; padding: 0 }
+
+.sub, #lbalk ul { list-style: none; padding: 0; margin: 0 10px 0 10px }
+
+th { text-align: left }
+th[colspan="4"] { text-align: center; color: #f78 }

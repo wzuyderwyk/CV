@@ -1,0 +1,28 @@
+<!--
+	### courseXml ###	-->
+
+<!-- Entities worden hier geïnitialiseerd -->
+<!ENTITY % DaysDesc "(event)+">
+
+<!-- Elementen worden hier beschreven -->
+<!ELEMENT course (timetable, reqs)>
+<!ELEMENT timetable (monday, tuesday, wednesday, thursday, friday)>
+
+<!ELEMENT monday %DaysDesc;>
+<!ELEMENT tuesday %DaysDesc;>
+<!ELEMENT wednesday %DaysDesc;>
+<!ELEMENT thursday %DaysDesc;>
+<!ELEMENT friday %DaysDesc;>
+
+<!ELEMENT event (description, location)?>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+
+<!ELEMENT reqs (req)+>
+<!ELEMENT req (description, details)>
+<!ELEMENT details (#PCDATA)>
+
+<!-- Attributen worden hier beschreven -->
+<!ATTLIST event
+	type	(lecture|workshop|free)	#REQUIRED
+	>
