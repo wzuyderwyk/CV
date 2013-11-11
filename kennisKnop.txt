@@ -1,0 +1,42 @@
+[
+	[
+		{"kopje":"Opleidingen"
+		,"regels":
+		[
+		"2009-2013: WO-bachelor (Algemene) Taalwetenschap, minor Internetrecht, Wijsbegeerte, Psychologie en Informatica (Universiteit Leiden)",
+		"",
+		"2008-2009: HBO-bachelor HBO Rechten (Hogeschool Arnhem en Nijmegen)",
+		"",
+		"2008-2009: HBO-bachelor Informatica (propedeuse behaald; Hogeschool Arnhem en Nijmegen)",
+		"",
+		"2005-2007: HBO-bachelor Lerarenopleiding Engels (Hogeschool Utrecht)",
+		"",
+		"2003-2005: HAVO (diploma behaald; Mondriaan Stadscollege voor Educatie)",
+		"",
+		"2001-2003: MBO (Grafisch Lyceum Rotterdam; IT-media)",
+		"",
+		"2001: MAVO-D (diploma behaald)"
+		]
+		}
+	],
+	[
+		{"kopje":"Formele talen en bibliotheken / APIs"
+		,"regels":
+		[
+		"C, formele logica (tevens in verhouding met natuurlijke taal), XML/(X)HTML(4), ECMAScript (ed. 3 en 5.1)/JavaScript/JScript/DOM, CSS(3), XSLT, HTML5/WebKit/Gecko/Trident, HTTP (waaronder WebDAV), Java (SE; nog geen Dalvik/Android SDK), IA-32/AMD64 machinecode en basale kennis ARM, Perl/Parrot VM, Objective-C (GNU- en NeXT-runtimes, beide ook op Windows), Cocoa Foundation framework en basale kennis UIKit en AppKit (zeer bereid hierin verder te leren), jQuery"
+		]
+		},
+		{"kopje":"Softwareomgevingen en -applicaties"
+		,"regels":
+		[
+		"Mac OS X/Darwin (vanaf 10.0, waaronder Mountain Lion), GNU/Linux (GNU Core en Binary Utilities, POSIX tools, bash, inetd, syslogd, etc.), Microsoft Windows (Win32/NT/XP/7), iPhone OS/iOS (vanaf 2.0), GCC, LLVM/Clang, Xcode, Microsoft Office, Adobe Photoshop, Macromedia/Adobe Flash, Director, Authorware (niet recent)"
+		]
+		},
+		{"kopje":"Overig"
+		,"regels":
+		[
+		"Rechtsgeleerdheid, filosofie, psychologie, taalkunde, Engels."
+		]
+		}
+	]
+]

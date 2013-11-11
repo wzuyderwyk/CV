@@ -1,0 +1,37 @@
+[
+	[
+		{"kopje":"Talen"
+		,"regels":
+		[
+		"Nederlands (moedertaal), Engels (near-native; zeer goed), Spaans (slechts receptief geschreven; matig), zeer goede kennis van grammatica's van het Engels en Nederlands en verschillen in grammaticale constructies tussen taalfamilies en kennis van de mogelijkheden en onmogelijkheden van taal in het algemeen (fonetiek, fonologie/fonotaxis, syntaxis, semantiek)"
+		]
+		},
+		{"kopje":"Werkervaring"
+		,"regels":
+		[
+		"2007-2008: klantenservicemedewerker telecom (Orange, T-Mobile) (voltijd)"
+		]
+		},
+		{"kopje":"Stages"
+		,"regels":
+		[
+		"2006-2007: leraar Engels MBO 3/4 ICT (ROC Amsterdam)"
+		]
+		}
+	],
+	[
+		{"kopje":"Onderzoeksvaardigheden"
+		,"regels":
+		[
+		"Grondige kennis van onderzoeksmethodieken en wetenschapsbeoefening in de Geestes- en menswetenschappen (waaronder uitgebreide ervaring met het verwoorden van argumenten, feiten en (met name wetenschapsfilosofische, filosofische, psychologische/psychiatrische en taalkundige) theoretische raamwerken)"
+		]
+		},
+		{"kopje":"Extra-curriculair"
+		,"regels":
+		[
+		"2005-2007: medezeggenschapsraden opleiding, faculteit en Hogeschool (Hogeschool Utrecht), oprichting politieke (hogeschool-)studentenpartij Eureka!",
+		"2009-2013: serieuze voorbereidingen voor werk als mobiele en Web-programmeur (Objective-C/iOS, ECMAScript/Javascript, Python)"
+		]
+		}
+	]
+]

@@ -1,0 +1,139 @@
+<!DOCTYPE html >
+<!-- Dit document gebruikt niet de beste implementatievorm voor iedere functionaliteit, maar wel zo veel mogelijk verschillende,
+ter illustratie van kennis en vaardigheden. -->
+
+<html>
+<head><title>CV van Wietse Zuyderwyk</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<meta name="viewport" content="user-scalable=no, initial-scale=0.56"/>
+
+<style type="text/css"><!--
+
+@media screen {
+
+/* Referenties: w3.org/TR/css-2010 */
+@font-face {
+  font-family: api;
+  font-weight: bold;
+  src: url(apibold.ttf);
+}
+
+@font-face {
+  font-family: adobeSourceSansLight;
+  font-weight: lighter;
+  src: url(SourceSansPro-Light.ttf);
+}
+
+html { overflow: hidden; }
+
+body { margin: 0; background-color: black; color: white; overflow: hidden; background-image: linear-gradient(to top, rgba(90,90,90,0.65), rgba(160,160,160,0.7), rgba(120,120,120,0.7)); background-image: -moz-linear-gradient(to top, rgba(90,90,90,0.65), rgba(160,160,160,0.7), rgba(120,120,120,0.7)); background-image: -webkit-linear-gradient(-90deg, rgba(90,90,90,0.65), rgba(160,160,160,0.7), rgba(120,120,120,0.7)); }
+
+div#bronCodeAchtergrond { z-index: -2; -webkit-transform: rotate(-10deg); -moz-transform: rotate(-10deg); -o-transform: rotate(-10deg); -moz-transform: rotate(-10deg); transform: rotate(-10deg); font: bold 54pt 'Courier New'; width: 100%; overflow: hidden; color: #333; position: absolute; opacity: 0.3; top: -180px; left: 0; padding-left: 30px; }
+
+#CV, #CVInhoud { min-width: 420px; min-height: 400px; z-index: -1; position: relative; background-color: rgb(240,240,240); border: #bbb solid 2px; border-radius: 30px; -webkit-transition: width 1s, height 800ms; transition: width 1s, height 800ms; transition-delay: 500ms, 0s; width: 74px; height: 50px; margin-top: 80px; margin-right: auto; margin-left: auto; overflow: hidden; }
+
+#tekst { position: fixed; width: 100%; height: 40px; font: normal 9pt/11pt adobeSourceSansLight, Helvetica, Arial, sans serif; letter-spacing: 2pt; -webkit-transition: height 2s; transition: height 2s; overflow: hidden; }
+
+#CV { opacity: 0.9; background-image: linear-gradient(0deg, #bba, rgb(250,250,240), #aa9); background-image: -webkit-linear-gradient(0deg, #bba, rgb(250,250,240), #aa9); background-image: -moz-linear-gradient(0deg, #bba; rgb(250,250,240), #aa9); }
+
+li { position: absolute; display: block; padding: 4px; background-color: transparent; opacity: 0.4; -webkit-transition: opacity 500ms; transition: opacity 500ms; height: 100px; width: 100px; border: #eee solid 10px; border-radius: 50%; }
+
+li > span { z-index: 2; display: block; text-align: center; width: 55px; height: 60px; margin: 35px 40px 40px 15px; font-family: Arial, Helvertica, sans serif; font-size: 16pt; font-weight: bold; } 
+
+li:hover { opacity: 0.95; cursor: pointer; }
+
+li > span:hover { color: white; -moz-transition: color 2s; -webkit-transition: color 2s; -o-transition: color 2s; transition: color 2s; }
+
+#CVInhoud { overflow: hidden; opacity: 0.95; border-width: 0; background-color: transparent; padding: 30px; color: #004; -webkit-transition: color 1s; transition: color 1s; }
+
+h1, h2 { text-align: center; }
+
+h1 { margin-top: 10px; margin-bottom: 0; font: bold 48pt/30pt api, serif; letter-spacing: 0.125em; }
+
+h1.klein { font: bold 26pt/20pt api, serif; margin-top: -4px; }
+
+h2 { margin-top: 4px; opacity: 0.6; font: 100 26pt Helvetica, Arial, sans serif; opacity: 0.6; letter-spacing: 0.22em; }
+
+h2.klein { font: 100 22pt/18pt Helvetica, Arial, sans serif; margin-bottom: 4px; }
+
+/* Een grote onder-marge zodat we niet zien dat/als ze onder elkaar komen te zweven. */
+.kolom { min-width: 150px; width: 48%; height: 72%; margin: 5px; border: 2px solid red; border: 0; float: left; margin-bottom: 200px; padding: 0; transition: width 500ms; }
+
+.eenKoloms { width: 96%; }
+
+p { margin: 10px; margin-top: 0; letter-spacing: 0; text-align: justify; font: normal 11pt/13pt adobeSourceSansLight, Helvetica, Arial, sans serif; }
+
+p > .witRegel { display: block; height: 10px; }
+
+b { font: bold 12pt/10pt Helvetica, Arial, sans serif; opacity: 0.7; letter-spacing: -0.6pt; }
+
+.startVerborgen { display: none; }
+
+#scrollNaarBenedenKnop, #scrollNaarBovenKnop { z-index: 2; position: absolute; background-color: transparent; opacity: 0.4; -webkit-transition: opacity 500ms; transition: opacity 500ms; height: 30px; width: 30px; border: #eee solid 3px; border-radius: 50%; font: normal 9pt/30px Helvetica, Arial, sans serif; padding: 5px 0 5px 7px; letter-spacing: 0.25em; }
+
+#scrollNaarBenedenKnop:hover, #scrollNaarBovenKnop:hover { opacity: 1; cursor: pointer; }
+
+} /* Einde @media screen */
+
+--></style>
+
+<style type="text/css"></style>
+
+</head>
+
+<body id="body" lang="en-GB" onload="if(Wz.IEDOM) try{ Wz.werkelijkeKlik = false; switch (window.location.hash) { case '#kennis': Wz.knoppen[0].fireEvent('onclick'); break; case '#kunde': Wz.knoppen[1].fireEvent('onclick'); break; } Wz.werkelijkeKlik = true; } catch (ex) { console.log(ex.message); }">
+<!-- Eigenlijk moet alle js en css natuurlijk maar extern (met eventueel een manifest attribuut voor caching), maar dat wil ik een bronlezer niet aandoen. Shorthand notatie is ook puur ter illustratie. -->
+<div id="tekst" style="font-weight: bold; text-align: center;">&nbsp;</div>
+<div id="CV"></div>
+<!-- Menu-items -->
+<ul>
+<li id="kennisKnop"><span>Kennis</span></li>
+<li id="kundeKnop"><span>Kunde</span></li>
+</ul>
+<div id="CVInhoud"></div>
+<!-- Hier komen de pagina-omsla knoppen, absoluut gepositioneerd boven of onder het CV -->
+<div id="scrollNaarBovenKnop" class="startVerborgen">1/2</div>
+<div id="scrollNaarBenedenKnop" class="startVerborgen">2/2</div>
+<div id="bronCodeAchtergrond"><pre>var ObjectConstructor = function () { };
+Object.property = {
+    constructor: ObjectConstructor,
+    prototype: { // Object.prototype.method()
+		method: function () {  }  }  }  }
+// Load with init();
+window.addEventListener("load",init, false);
+
+Object.anotherProperty = {
+    constructor: ObjectConstructor,
+    prototype: { 
+		method: function () {
+			}
+		 }
+	}
+}
+</pre>
+</div>
+<div id="terugKnop">&lt;</div>
+
+<script type="text/javascript" src="CV.js">
+</script>
+
+<!--[if IE 8]><!-->
+<script type="text/javascript">Wz.IE = 8;</script>
+
+<!--<![endif]-->
+<!--[if IE 7]><!-->
+<script type="text/javascript">Wz.IE = 7;</script>
+
+<!--<![endif]-->
+<!--[if IE 6]><!-->
+<script type="text/javascript">Wz.IE = 6;</script>
+
+<!--<![endif]-->
+
+<script type="text/javascript">if(!console)var console = { log: function() { } };</script>
+
+<script type="text/javascript">new CV(true/* = gebruik direct kleurovergang bij bewegen muis. */);</script>
+
+</body>
+</html>
